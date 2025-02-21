@@ -28,6 +28,7 @@ void print_result(val_t x)
     printf("#<eof>");
     break;
   case T_VOID:
+    printf("#<void>");
     break;
   case T_EMPTY:
   case T_BOX:

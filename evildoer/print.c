@@ -23,6 +23,7 @@ void print_result(val_t x)
     break;
   case T_VOID:
     printf("#<void>");
+    printf("#<void>");
     break;
   case T_INVALID:
     printf("internal error");
