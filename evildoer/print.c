@@ -22,7 +22,8 @@ void print_result(val_t x)
     printf("#<eof>");
     break;
   case T_VOID:
-    break;    
+    printf("#<void>");
+    break;
   case T_INVALID:
     printf("internal error");
   }
